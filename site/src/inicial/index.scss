@@ -1,0 +1,220 @@
+.pagina-escola {
+    display: flex;
+    flex-direction: row;
+
+
+  .devschool {
+    display: flex;
+    flex-direction: column;
+   background-color: #2B3031;
+    height: 100vh;
+    width: 350px;
+    gap: 15px;
+
+    .imagem {
+      height: 80px;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+      width: 175px;
+      height: 33px;
+    }
+  }
+
+  .fxpreta {
+    background-color: #262626;
+    height: 60px;
+    width: 350px;
+  }
+
+  .ger {
+    display: flex;
+    font-size: 10px;
+    height: 60px;
+    width: 350px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+  }
+
+
+  .h1-alunos {
+    font-size: 10px;
+    color: #fff;
+    height: 60px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+
+  }
+
+  .todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pt2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    height: 100px;
+    width: 81.3vw;
+    margin: 0px 0px 50px 0px;
+
+    .cabecalho {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 0px 0px 50px;
+
+      a {
+        display: flex;
+      }
+
+      img {
+        height: 57px;
+        width: 57px;
+        border-radius: 30px;
+      }
+    }
+
+    .dir {
+      display: flex;
+      align-items: center;
+      
+    }
+
+    .pt2-2 {
+      display: flex;
+      flex-direction: row;
+      width: 83%;
+      justify-content: flex-end;
+      padding: 0px 20px 0px 0px;
+      gap: 15px;
+
+    .quadrado {
+      border-radius: 50px;
+      gap: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 50px;
+      background-color: #986CDF;
+
+      img {
+        height: 30px;
+        width: 25px;
+      }
+    }
+
+    .quadrado2 {
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 50px;
+      background-color: #986CDF;
+
+      img {
+        height: 30px;
+        width: 25px;
+      }
+    }
+    } 
+  }
+
+  .nvaluno {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 233px;  
+    width: 1100px;
+    box-shadow: 2px 1px 4px 4px rgba(1, 1, 1, 0.2);
+
+    .al {
+
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+      gap: 15px;
+      color: #3C3939;
+      height: 80px;
+      width: 100%;
+      padding: 0px 0px 0px 40px;
+      align-items: center;
+      font-weight: bold;
+
+      a {
+        display: flex;
+        height: 30px;
+        width: 10px;
+        border-radius: 30px;
+        background-color: #986CDF;
+      }
+    }
+
+    .nc {
+      padding: 0px 0px 0px 70px;
+      display: flex; 
+      gap: 10px;
+      font-weight: bolder;
+      align-items: center;
+
+      input {
+        border-radius: 4px;
+        border: 1px solid #A8A8A8;
+        height: 25px;
+        width: 140px;
+      }
+
+      .curso {
+        padding: 0px 0px 0px 70px;
+      }
+    }
+
+    .ct {
+      padding: 30px 0px 0px 46px;
+      display: flex; 
+      gap: 10px;
+      font-weight: bolder;
+
+      input {
+        border-radius: 4px;
+        border: 1px solid #A8A8A8;
+        height: 25px;
+        width: 140px;
+      }
+
+      .curso {
+        padding: 0px 0px 0px 65px;
+      }
+
+      button {
+        color: #fff;
+        background-color: #E911C6;
+        width: 106px;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        
+      }
+
+      button:hover {
+        background-color: #986CDF;
+      }
+    }
+  }
+
+}

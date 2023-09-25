@@ -17,23 +17,18 @@ export default function Escola() {
     try {
       const r = await inserir(nome, chamada, turma, curso);
       
-      alert('Filme cadastrado com sucesso');
+      alert('Feedback cadastrado com sucesso');
     } catch(err) {
       alert(err.message);
     }
   }
 
   return (
-    <div className="pagina-escola">
+    <div className="pagina-frei">
 
       
 
-        <div className='devschool'>
-
-            <div className='imagem'>
-              <img src='/assets/images/Logo.png' />
-            </div>
-
+        <div className='frei'>
             <div className='fxpreta'></div>
 
             <div className='ger'>
@@ -42,7 +37,7 @@ export default function Escola() {
             </div>
 
             <div className='h1-alunos'>
-              <h1>Alunos</h1>
+              <h6>Feedback</h6>
             </div>
 
         </div>
@@ -75,7 +70,7 @@ export default function Escola() {
 
             <div className='al'>
               <a></a>
-              <label>Novo Aluno</label>
+              <label>Feedback</label>
             </div>
 
             <div className='nc'>
@@ -86,15 +81,16 @@ export default function Escola() {
             </div>
 
             <div className='ct'>
-            <label>Chamada: </label>
+            <label>Nota: </label>
             <input type='text' value={chamada} onChange={e => setChamada(e.target.value)} />
             <label className='curso'>Turma:</label>
             <input type='text' placeholder=' D' value={turma} onChange={e => setTurma(e.target.value)} />
         
-            <button onClick={adicionar}> Cadastar </button>
             </div>
 
-
+          <div className='butao'>
+            <button onClick={adicionar}> Cadastar </button>
+            </div>
           </div>
 
           <div className='malunos'>

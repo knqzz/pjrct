@@ -1,9 +1,9 @@
-.pagina-escola {
+.pagina-frei {
     display: flex;
     flex-direction: row;
 
 
-  .devschool {
+  .frei {
     display: flex;
     flex-direction: column;
    background-color: #2B3031;
@@ -44,10 +44,11 @@
 
 
   .h1-alunos {
-    font-size: 10px;
+    font-weight: lighter;
+    font-size: 29px;
     color: #fff;
     height: 60px;
-    width: 350px;
+    width: 50px;
     display: flex;
     align-items: center;
     padding: 0px 0px 0px 50px;
@@ -57,7 +58,6 @@
   .todos {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .pt2 {
@@ -67,7 +67,7 @@
     background-color: #fff;
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
     height: 100px;
-    width: 81.3vw;
+    width: 100%;
     margin: 0px 0px 50px 0px;
 
     .cabecalho {
@@ -140,7 +140,7 @@
     flex-direction: column;
     background-color: #fff;
     height: 233px;  
-    width: 1100px;
+    width: 930px;
     box-shadow: 2px 1px 4px 4px rgba(1, 1, 1, 0.2);
 
     .al {
@@ -151,7 +151,7 @@
       gap: 15px;
       color: #3C3939;
       height: 80px;
-      width: 100%;
+      width: 200px;
       padding: 0px 0px 0px 40px;
       align-items: center;
       font-weight: bold;
@@ -185,7 +185,7 @@
     }
 
     .ct {
-      padding: 30px 0px 0px 46px;
+      padding: 30px 0px 0px 69px;
       display: flex; 
       gap: 10px;
       font-weight: bolder;
@@ -201,6 +201,12 @@
         padding: 0px 0px 0px 65px;
       }
 
+
+        
+      }
+
+    .butao{
+      padding: 20px 20px 20px 50px;
       button {
         color: #fff;
         background-color: #E911C6;
@@ -208,13 +214,13 @@
         height: 32px;
         border-radius: 20px;
         border: none;
-        
-      }
 
       button:hover {
         background-color: #986CDF;
       }
     }
+  }
+
   }
 
 }
